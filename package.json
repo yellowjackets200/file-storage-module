@@ -1,0 +1,19 @@
+{
+  "name": "file-storage-module",
+  "version": "1.0.0",
+  "description": "A simple file storage server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.5.8",
+    "multiparty": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "BitPay Inc",
+  "license": "ISC"
+}
