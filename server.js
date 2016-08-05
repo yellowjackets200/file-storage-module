@@ -13,6 +13,6 @@ var mongoose = require('mongoose');
 
 app.use('/file', fileRouter);
 
-mongoose.connect('mongodb://localhost/database');
+mongoose.connect('mongodb://localhost/files-db');
 
 app.listen(3000);
